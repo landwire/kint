@@ -163,7 +163,7 @@ if (typeof window.kintRich === 'undefined') {
                             document.getElementsByClassName('kint-rich-style')[0].outerHTML +
                             kintRich.mktag('/head') +
                             kintRich.mktag('body') +
-                            '<input style="width: 100%" placeholder="Take some notes!">' +
+                            `<input style="width: 100%" placeholder="Take some notes!">` +
                             '<div class="kint-rich">' +
                             kintContainer.parentNode.outerHTML +
                             '</div>' +
